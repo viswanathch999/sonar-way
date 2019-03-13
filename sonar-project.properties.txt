@@ -1,4 +1,10 @@
-mvn sonar:sonar 
-  -Dsonar.projectKey=sonar-way 
-  -Dsonar.host.url=http://localhost:9000 
-  -Dsonar.login=2fe00bf5aa3c717ff2f5cc181534d8c1f9b44f46
+# Required metadata
+sonar.projectKey=org.sonarqube:parent 
+sonar.projectName=Example of SonarQube Scanner for Maven + Code Coverage by UT and IT
+sonar.projectVersion=1.0
+
+# Comma-separated paths to directories with sources (required)
+sonar.sources=src
+
+# Encoding of the source files
+sonar.sourceEncoding=UTF-8
