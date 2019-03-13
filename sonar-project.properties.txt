@@ -1,4 +1,4 @@
 mvn sonar:sonar 
-  -Dsonar.projectKey=secure 
+  -Dsonar.projectKey=sonar-way 
   -Dsonar.host.url=http://localhost:9000 
-  -Dsonar.login=fb6a0b4e69a6b24b75e6ed82ac6346b42f7c6b21
+  -Dsonar.login=26906f4d64623d8b5f603f8887b48add57efcbc8
